@@ -4,6 +4,8 @@ Groups players into their respective region, this was made for target finding fo
 ```lua
 local Groups = Group:Form({
     Visualize = true;
+    GroupableRange = 10;
+    IgnorePlayerList = {}
 })
 
 for _, Group in pairs(Groups) do
