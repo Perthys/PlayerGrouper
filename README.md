@@ -16,3 +16,5 @@ for _, Group in pairs(Groups) do
     print(Group.Part);
 end
 ```
+
+![Example](https://i.gyazo.com/45e9fa745fef53e866dea5ce4fdfaf00.mp4)
